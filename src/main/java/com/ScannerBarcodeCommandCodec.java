@@ -1,4 +1,4 @@
-package com.iwu.connector;
+package com;
 
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.eventbus.MessageCodec;

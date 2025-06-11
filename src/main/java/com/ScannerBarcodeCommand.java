@@ -1,4 +1,4 @@
-package com.iwu.connector;
+package com;
 
 public class ScannerBarcodeCommand {
 
