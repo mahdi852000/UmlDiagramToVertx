@@ -42,7 +42,6 @@ public class DMCCScannerVerticle extends AbstractVerticle {
                 message.fail(500, "Failed to process barcode.");
             }
         });
-
     startPromise.complete();
     }
 }

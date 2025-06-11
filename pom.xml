@@ -14,7 +14,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencyManagement>
         <dependencies>
             <!-- امن‌ترین نسخه‌های بررسی‌شده -->
             <dependency>
@@ -33,8 +32,7 @@
                 <artifactId>vertx-core</artifactId>
                 <version>4.5.1</version>
             </dependency>
-
-            <!-- Vert.x Unit (for testing) -->
+                        <!-- Vert.x Unit (for testing) -->
             <dependency>
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-unit</artifactId>
@@ -48,5 +46,4 @@
                 <version>2.0.9</version>
             </dependency>
         </dependencies>
-    </dependencyManagement>
 </project>
