@@ -18,7 +18,7 @@ public class DMCCScannerVerticle extends AbstractVerticle {
         logger.info("{} started", name);
 
 
-        long l = vertx.setPeriodic(10_000, id -> logger.info("[HEARTBEAT] {}: I'm alive!", name));
+        vertx.setPeriodic(10_000, id -> logger.info("[HEARTBEAT] {}: I'm alive!", name));
         vertx.eventBus().consumer("scanner.instruction", message->{
             try {
                 InstructionCommand cmd = (InstructionCommand) message.body();
